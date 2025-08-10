@@ -1,0 +1,37 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Supercapacitor can (larger and more robust) -->
+  <rect x="14" y="12" width="36" height="40" rx="4" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+  
+  <!-- Supercapacitor top -->
+  <ellipse cx="32" cy="12" rx="18" ry="4" fill="#a78bfa"/>
+  
+  <!-- Safety vent -->
+  <rect x="30" y="8" width="4" height="8" fill="#ef4444"/>
+  <path d="M30 10 L34 10 M30 12 L34 12" stroke="#ffffff" stroke-width="1"/>
+  
+  <!-- High capacity indication -->
+  <rect x="16" y="20" width="32" height="24" fill="#ffffff"/>
+  <text x="32" y="26" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#7c3aed">SUPERCAPACITOR</text>
+  <text x="32" y="34" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#7c3aed">3000F</text>
+  <text x="32" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7c3aed">2.7V</text>
+  
+  <!-- Positive terminal -->
+  <rect x="22" y="52" width="6" height="4" fill="#ef4444"/>
+  <text x="25" y="56" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#ffffff">+</text>
+  
+  <!-- Negative terminal -->
+  <rect x="36" y="52" width="6" height="4" fill="#374151"/>
+  <text x="39" y="56" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#ffffff">-</text>
+  
+  <!-- Energy storage visualization -->
+  <g fill="#fbbf24" opacity="0.8">
+    <circle cx="24" cy="30" r="1"/>
+    <circle cx="28" cy="32" r="1"/>
+    <circle cx="32" cy="28" r="1"/>
+    <circle cx="36" cy="30" r="1"/>
+    <circle cx="40" cy="32" r="1"/>
+  </g>
+  
+  <!-- Power indicator -->
+  <polygon points="52,8 56,12 52,16 54,12" fill="#fbbf24"/>
+</svg>

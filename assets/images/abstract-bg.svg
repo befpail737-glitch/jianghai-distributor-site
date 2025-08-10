@@ -1,0 +1,137 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:0.05" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.05" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Circuit board pattern -->
+  <g stroke="#3b82f6" stroke-width="0.5" fill="none" opacity="0.3">
+    <!-- Horizontal lines -->
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="0" y1="700" x2="1200" y2="700"/>
+    
+    <!-- Vertical lines -->
+    <line x1="150" y1="0" x2="150" y2="800"/>
+    <line x1="300" y1="0" x2="300" y2="800"/>
+    <line x1="450" y1="0" x2="450" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="750" y1="0" x2="750" y2="800"/>
+    <line x1="900" y1="0" x2="900" y2="800"/>
+    <line x1="1050" y1="0" x2="1050" y2="800"/>
+  </g>
+  
+  <!-- Connection points -->
+  <g fill="#60a5fa" opacity="0.4">
+    <circle cx="150" cy="100" r="2"/>
+    <circle cx="300" cy="200" r="2"/>
+    <circle cx="450" cy="100" r="2"/>
+    <circle cx="600" cy="300" r="2"/>
+    <circle cx="750" cy="200" r="2"/>
+    <circle cx="900" cy="400" r="2"/>
+    <circle cx="150" cy="300" r="2"/>
+    <circle cx="300" cy="500" r="2"/>
+    <circle cx="450" cy="400" r="2"/>
+    <circle cx="600" cy="600" r="2"/>
+    <circle cx="750" cy="500" r="2"/>
+    <circle cx="900" cy="700" r="2"/>
+    <circle cx="1050" cy="300" r="2"/>
+    <circle cx="1050" cy="600" r="2"/>
+  </g>
+  
+  <!-- Electronic components silhouettes -->
+  <g fill="url(#circuitGradient)" opacity="0.6">
+    <!-- Capacitor symbols -->
+    <g>
+      <rect x="200" y="150" width="3" height="30"/>
+      <rect x="210" y="150" width="3" height="30"/>
+      <line x1="190" y1="165" x2="200" y2="165" stroke="#3b82f6" stroke-width="1"/>
+      <line x1="213" y1="165" x2="223" y2="165" stroke="#3b82f6" stroke-width="1"/>
+    </g>
+    
+    <g>
+      <rect x="500" y="250" width="3" height="30"/>
+      <rect x="510" y="250" width="3" height="30"/>
+      <line x1="490" y1="265" x2="500" y2="265" stroke="#3b82f6" stroke-width="1"/>
+      <line x1="513" y1="265" x2="523" y2="265" stroke="#3b82f6" stroke-width="1"/>
+    </g>
+    
+    <g>
+      <rect x="800" y="350" width="3" height="30"/>
+      <rect x="810" y="350" width="3" height="30"/>
+      <line x1="790" y1="365" x2="800" y2="365" stroke="#3b82f6" stroke-width="1"/>
+      <line x1="813" y1="365" x2="823" y2="365" stroke="#3b82f6" stroke-width="1"/>
+    </g>
+    
+    <!-- Resistor symbols -->
+    <rect x="350" y="120" width="40" height="8" rx="4"/>
+    <rect x="650" y="450" width="40" height="8" rx="4"/>
+    <rect x="950" y="250" width="40" height="8" rx="4"/>
+    
+    <!-- IC packages -->
+    <rect x="400" y="350" width="60" height="40" rx="4"/>
+    <rect x="100" y="450" width="60" height="40" rx="4"/>
+    <rect x="700" y="150" width="60" height="40" rx="4"/>
+  </g>
+  
+  <!-- Floating geometric shapes -->
+  <g fill="url(#glowGradient)" opacity="0.3">
+    <circle cx="200" cy="350" r="30"/>
+    <circle cx="800" cy="150" r="25"/>
+    <circle cx="500" cy="550" r="35"/>
+    <circle cx="1000" cy="450" r="20"/>
+    
+    <polygon points="350,450 380,470 380,500 350,520 320,500 320,470"/>
+    <polygon points="950,550 980,570 980,600 950,620 920,600 920,570"/>
+  </g>
+  
+  <!-- Data flow visualization -->
+  <g stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.2">
+    <path d="M100 50 Q300 100 500 80 Q700 60 900 100 Q1100 140 1200 120"/>
+    <path d="M0 350 Q200 320 400 340 Q600 360 800 330 Q1000 300 1200 320"/>
+    <path d="M100 650 Q300 620 500 640 Q700 660 900 630 Q1100 600 1200 620"/>
+  </g>
+  
+  <!-- Glowing nodes -->
+  <g fill="#60a5fa" opacity="0.8">
+    <circle cx="300" cy="80" r="3">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="340" r="3">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="630" r="3">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Subtle grid overlay -->
+  <g stroke="#cbd5e1" stroke-width="0.25" fill="none" opacity="0.2">
+    <defs>
+      <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="800" fill="url(#smallGrid)"/>
+  </g>
+</svg>

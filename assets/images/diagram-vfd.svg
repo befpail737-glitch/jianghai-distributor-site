@@ -1,0 +1,98 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="300" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">
+    Variable Frequency Drive (VFD) Block Diagram
+  </text>
+  
+  <!-- AC Input -->
+  <rect x="20" y="80" width="80" height="60" fill="#6366f1" stroke="#4f46e5" stroke-width="2" rx="4"/>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">AC Input</text>
+  <text x="60" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">3-Phase</text>
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">400V</text>
+  
+  <!-- Rectifier -->
+  <rect x="140" y="80" width="80" height="60" fill="#10b981" stroke="#059669" stroke-width="2" rx="4"/>
+  <text x="180" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Rectifier</text>
+  <text x="180" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">6-Pulse</text>
+  
+  <!-- DC Bus Capacitor (MAIN FOCUS) -->
+  <rect x="260" y="60" width="80" height="100" fill="#ef4444" stroke="#dc2626" stroke-width="3" rx="4"/>
+  <text x="300" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">DC Bus</text>
+  <text x="300" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Capacitor</text>
+  <text x="300" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">Screw Terminal</text>
+  <text x="300" y="130" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">High Ripple</text>
+  <text x="300" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">⚡ KEY COMPONENT</text>
+  
+  <!-- Inverter -->
+  <rect x="380" y="80" width="80" height="60" fill="#f59e0b" stroke="#d97706" stroke-width="2" rx="4"/>
+  <text x="420" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Inverter</text>
+  <text x="420" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">IGBT/SiC</text>
+  
+  <!-- Motor -->
+  <circle cx="530" cy="110" r="40" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="530" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Motor</text>
+  <text x="530" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">3-Phase</text>
+  
+  <!-- Control System -->
+  <rect x="140" y="200" width="320" height="40" fill="#6b7280" stroke="#4b5563" stroke-width="2" rx="4"/>
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Control System</text>
+  <text x="300" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">Speed Control • PWM Generation • Protection</text>
+  
+  <!-- Control Circuit Capacitors -->
+  <rect x="160" y="250" width="25" height="15" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="2"/>
+  <text x="172" y="262" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#ffffff">C1</text>
+  
+  <rect x="195" y="250" width="25" height="15" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="2"/>
+  <text x="207" y="262" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#ffffff">C2</text>
+  
+  <rect x="230" y="250" width="25" height="15" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="2"/>
+  <text x="242" y="262" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#ffffff">C3</text>
+  
+  <!-- Snubber Capacitors -->
+  <rect x="390" y="50" width="20" height="15" fill="#10b981" stroke="#059669" stroke-width="1" rx="1"/>
+  <text x="400" y="62" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#ffffff">S1</text>
+  
+  <rect x="415" y="50" width="20" height="15" fill="#10b981" stroke="#059669" stroke-width="1" rx="1"/>
+  <text x="425" y="62" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#ffffff">S2</text>
+  
+  <rect x="440" y="50" width="20" height="15" fill="#10b981" stroke="#059669" stroke-width="1" rx="1"/>
+  <text x="450" y="62" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#ffffff">S3</text>
+  
+  <!-- Connection lines -->
+  <g stroke="#374151" stroke-width="2" fill="none">
+    <!-- Main power flow -->
+    <line x1="100" y1="110" x2="140" y2="110"/>
+    <line x1="220" y1="110" x2="260" y2="110"/>
+    <line x1="340" y1="110" x2="380" y2="110"/>
+    <line x1="460" y1="110" x2="490" y2="110"/>
+    
+    <!-- Control connections -->
+    <line x1="300" y1="160" x2="300" y2="200"/>
+    <line x1="420" y1="140" x2="420" y2="180"/>
+    <line x1="380" y1="180" x2="420" y2="180"/>
+    <line x1="380" y1="180" x2="380" y2="200"/>
+    
+    <!-- Snubber connections -->
+    <line x1="400" y1="65" x2="400" y2="80"/>
+    <line x1="425" y1="65" x2="425" y2="80"/>
+    <line x1="450" y1="65" x2="450" y2="80"/>
+  </g>
+  
+  <!-- Arrows -->
+  <g fill="#374151">
+    <polygon points="130,107 140,110 130,113"/>
+    <polygon points="250,107 260,110 250,113"/>
+    <polygon points="370,107 380,110 370,113"/>
+    <polygon points="480,107 490,110 480,113"/>
+    <polygon points="297,190 300,200 303,190"/>
+  </g>
+  
+  <!-- Labels for capacitor types -->
+  <text x="300" y="185" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#dc2626">
+    High-Capacitance Screw Terminal
+  </text>
+  
+  <text x="425" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#059669">
+    Snubber Caps
+  </text>
+</svg>

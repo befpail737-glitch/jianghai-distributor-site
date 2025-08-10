@@ -1,0 +1,28 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Capacitor can body -->
+  <rect x="18" y="16" width="28" height="32" rx="2" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  
+  <!-- Capacitor top -->
+  <ellipse cx="32" cy="16" rx="14" ry="3" fill="#9ca3af"/>
+  
+  <!-- Positive terminal -->
+  <rect x="26" y="12" width="4" height="8" fill="#ef4444"/>
+  <rect x="24" y="14" width="8" height="2" fill="#ef4444"/>
+  
+  <!-- Negative terminal -->
+  <rect x="34" y="12" width="4" height="8" fill="#374151"/>
+  <rect x="36" y="14" width="4" height="2" fill="#374151"/>
+  
+  <!-- Polarity markings -->
+  <text x="28" y="26" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">+</text>
+  <text x="36" y="26" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">-</text>
+  
+  <!-- Capacitor label -->
+  <rect x="20" y="28" width="24" height="16" fill="#ffffff"/>
+  <text x="32" y="34" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#374151">JIANGHAI</text>
+  <text x="32" y="40" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#374151">470μF</text>
+  
+  <!-- Leads/pins -->
+  <rect x="26" y="48" width="2" height="8" fill="#6b7280"/>
+  <rect x="36" y="48" width="2" height="8" fill="#6b7280"/>
+</svg>
