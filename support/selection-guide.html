@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverter Capacitor Selection Guide | Jianghai Distributor</title>
+    <meta name="description" content="A detailed guide on selecting capacitors for inverters. Learn how to calculate ripple current, estimate lifetime, and choose between film and electrolytic capacitors for your DC-Link.">
+    <meta name="keywords" content="inverter capacitor selection, dc-link capacitor guide, capacitor lifetime calculation, jianghai support">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Re-use header, update paths -->
+        <div class="container"><a href="../index.html" class="logo-container"><img src="../assets/logos/logo.svg" alt="Hongxin Electronics Logo" class="logo"><span>Hongxin Electronics</span></a><nav class="main-nav"><ul><li><a href="../index.html">Home</a></li><li><a href="../products/aluminum-electrolytic/index.html">Products</a></li><li><a href="../solutions/index.html">Solutions</a></li><li><a href="index.html" class="active">Support</a></li><li><a href="../news/index.html">News</a></li><li><a href="../about.html">About Us</a></li><li><a href="../contact.html">Contact Us</a></li></ul></nav><button class="mobile-nav-toggle" aria-label="Toggle navigation">&#9776;</button></div>
+    </header>
+
+    <main>
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs">
+            <div class="container">
+                <a href="../index.html">Home</a> &raquo; 
+                <a href="index.html">Technical Support</a> &raquo; 
+                <span>Inverter Capacitor Selection Guide</span>
+            </div>
+        </div>
+
+        <article class="page-content article-layout">
+            <div class="container">
+                <h1>How to Select the Right Jianghai Capacitor for Your Inverter Application</h1>
+                <p class="article-meta">Published: March 1, 2025 | By: <strong>John Doe, Senior FAE</strong> | Category: Selection Guide</p>
+                
+                <div class="article-content">
+                    <p>Choosing the right capacitors for a power inverter is one of the most critical design decisions. The DC-Link capacitor, in particular, handles immense electrical stress and is often a key determinant of the inverter's overall reliability and lifespan. This guide will walk you through the key considerations for selecting both DC-Link and auxiliary power capacitors from the Jianghai portfolio.</p>
+
+                    <h3>Step 1: Define Your DC-Link Requirements</h3>
+                    <p>The DC-Link capacitor's primary role is to stabilize the DC bus voltage and provide a low-impedance path for high-frequency ripple currents. Key parameters to define are:</p>
+                    <ul>
+                        <li><strong>DC Bus Voltage (Vdc):</strong> The nominal operating voltage of the DC bus. You must select a capacitor with a rated voltage sufficiently higher than this (typically a 20-25% margin).</li>
+                        <li><strong>Required Capacitance (C):</strong> Determined by the allowable DC voltage ripple (ΔV). A larger capacitance results in lower voltage ripple.</li>
+                        <li><strong>RMS Ripple Current (Irms):</strong> This is the most critical parameter for lifetime. You must calculate the RMS value of the current flowing through the capacitor. This value is highly dependent on your modulation strategy and load.</li>
+                    </ul>
+
+                    <h3>Step 2: Choosing Between Film and Electrolytic Capacitors</h3>
+                    <p>For the DC-Link, you have two main choices: Aluminum Electrolytic or Film Capacitors.</p>
+                    <p><strong>Aluminum Electrolytic Capacitors</strong> (like the <a href="../products/aluminum-electrolytic/cd130.html">Jianghai CD 130 Screw Terminal</a> series) offer the highest capacitance per unit volume and are very cost-effective. They are excellent for applications where bulk capacitance is the primary need. However, their lifetime is finite and heavily dependent on temperature and ripple current.</p>
+                    <p><strong>Film Capacitors</strong> (like the <strong><a href="../products/aluminum-electrolytic/cbb131.html">Jianghai CBB 131</a></strong> series) offer a much longer operational life, superior ripple current handling per µF, and extremely low ESR. They also feature a "self-healing" property, making them exceptionally reliable. While bulkier and more expensive per µF, they are often the superior choice for high-reliability, long-life applications like solar inverters.</p>
+                    
+                    <h3>Step 3: Lifetime Calculation</h3>
+                    <p>For electrolytic capacitors, the lifetime must be carefully estimated. The lifetime provided in the datasheet (e.g., 5000 hours @ 105°C) is a starting point. The actual lifetime in your application (L_op) can be estimated using the following formula, which accounts for operating temperature (T_op) and applied ripple current (I_op):</p>
+                    <p><code>L_op = L_rated * 2^((T_rated - T_op) / 10) * K_ripple</code></p>
+                    <p>Where K_ripple is a factor related to the ratio of applied ripple to rated ripple. For accurate calculations, it is essential to consult the manufacturer's specific guidelines or contact our technical support team.</p>
+
+                    <h3>Conclusion</h3>
+                    <p>Selecting the right capacitor is a multi-faceted process involving electrical, thermal, and mechanical considerations. By carefully defining your requirements and understanding the trade-offs between different capacitor technologies, you can leverage Jianghai's extensive portfolio to build a highly reliable and efficient inverter. For detailed simulations and personalized recommendations, we encourage you to <a href="../contact.html">contact our FAE team</a>.</p>
+                </div>
+
+                <!-- Related Articles Module -->
+                <div class="related-articles">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="#">Understanding ESR and Its Impact on SMPS Efficiency</a></li>
+                        <li><a href="#">Why Did My Electrolytic Capacitor Fail Prematurely?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <!-- Re-use footer -->
+        <div class="container"><div class="footer-grid"><div class="footer-col"><h4>Hongxin Electronics</h4><p>Your trusted first-tier authorized distributor for Jianghai Capacitors.</p></div><div class="footer-col"><h4>Quick Links</h4><ul><li><a href="../products/aluminum-electrolytic/index.html">Products</a></li><li><a href="../solutions/index.html">Solutions</a></li><li><a href="../about.html">About Us</a></li><li><a href="../contact.html">Contact Us</a></li></ul></div><div class="footer-col"><h4>Contact</h4><p>Email: sales@hongxin-elec.com</p><p>Phone: +86-755-1234-5678</p></div></div><div class="footer-bottom"><p>&copy; 2025 Hongxin Electronics. All Rights Reserved.</p></div></div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

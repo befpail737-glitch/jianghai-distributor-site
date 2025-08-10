@@ -1,0 +1,310 @@
+/* --- CSS Variables --- */
+:root {
+    --primary-color: #0056b3; /* A professional blue */
+    --secondary-color: #007bff;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --text-color: #333;
+    --gray-color: #6c757d;
+    --border-color: #dee2e6;
+    --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --container-width: 1200px;
+    --border-radius: 5px;
+}
+
+/* --- Global Resets & Typography --- */
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #fff;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    color: var(--dark-color);
+    line-height: 1.3;
+}
+
+h1 { font-size: 2.8rem; }
+h2 { font-size: 2.2rem; text-align: center; margin-bottom: 40px; }
+h3 { font-size: 1.5rem; }
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-bg {
+    background-color: var(--light-color);
+    padding: 60px 0;
+}
+
+/* --- Header & Navigation --- */
+.main-header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-color);
+}
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 25px;
+}
+
+.main-nav ul li a {
+    color: var(--dark-color);
+    font-weight: 500;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.main-nav ul li a:hover, .main-nav ul li a.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.mobile-nav-toggle { display: none; }
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #004494;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.btn-secondary:hover {
+    background-color: #fff;
+    color: var(--dark-color);
+}
+
+/* --- Hero Banner --- */
+.hero-banner {
+    background: linear-gradient(rgba(0, 33, 71, 0.7), rgba(0, 33, 71, 0.7)), url('../assets/images/abstract-bg.svg') no-repeat center center/cover;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-banner p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-cta .btn {
+    margin: 0 10px;
+}
+
+/* --- Core Advantage Section --- */
+.core-advantage {
+    padding: 60px 0;
+}
+.advantage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+.advantage-icon {
+    height: 60px;
+    margin-bottom: 15px;
+}
+.advantage-item h3 {
+    margin-bottom: 10px;
+}
+
+/* --- Product Areas Section --- */
+.product-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.product-card {
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+.product-card-icon {
+    height: 70px;
+    margin-bottom: 20px;
+}
+.product-card h3 {
+    margin-bottom: 15px;
+}
+.product-card span {
+    font-weight: 600;
+    color: var(--primary-color);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* --- Solutions Showcase Section --- */
+.solutions-showcase {
+    padding: 60px 0;
+}
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 350px;
+}
+.solution-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.solution-item:hover {
+    transform: scale(1.03);
+}
+.solution-item::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%);
+}
+.solution-item h3 {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin: 0;
+    font-size: 1.4rem;
+}
+.solution-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.solution-item a:hover h3 {
+    text-decoration: underline;
+}
+
+/* --- Final CTA Section --- */
+.final-cta {
+    text-align: center;
+}
+.final-cta h2 {
+    margin-bottom: 15px;
+}
+.final-cta p {
+    font-size: 1.1rem;
+    color: var(--gray-color);
+    margin-bottom: 30px;
+}
+
+
+/* --- Footer --- */
+.main-footer {
+    background-color: var(--dark-color);
+    color: rgba(255,255,255,0.8);
+    padding: 50px 0 20px 0;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.footer-col h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    color: rgba(255,255,255,0.8);
+}
+.footer-col ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
+    color: var(--gray-color);
+}

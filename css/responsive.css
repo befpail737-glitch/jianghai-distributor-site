@@ -1,0 +1,100 @@
+@media (max-width: 992px) {
+    .container {
+        padding: 0 30px;
+    }
+    h1 { font-size: 2.4rem; }
+    h2 { font-size: 2rem; }
+    .hero-banner h1 { font-size: 2.8rem; }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .main-nav.active {
+        display: flex;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-nav ul li {
+        margin: 0;
+    }
+    .main-nav ul li a {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .mobile-nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: var(--dark-color);
+    }
+
+    .solutions-grid {
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    h1, .hero-banner h1 { font-size: 2rem; }
+    h2 { font-size: 1.8rem; }
+    
+    .hero-banner { padding: 80px 0; }
+    
+    .advantage-grid, .product-card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .solutions-grid {
+        grid-template-columns: 1fr;
+        aspect-ratio: initial;
+        height: auto;
+    }
+
+    .solution-item {
+        min-height: 200px;
+    }
+}```
+
+---
+
+#### **File 4: `js/main.js`**
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const mainNav = document.querySelector('.main-nav');
+
+    if (mobileNavToggle && mainNav) {
+        mobileNavToggle.addEventListener('click', function() {
+            mainNav.classList.toggle('active');
+        });
+    }
+});
