@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding ESR and Its Impact on SMPS Efficiency | Technical Guide</title>
+    <meta name="description" content="Learn about Equivalent Series Resistance (ESR) in capacitors and how it affects efficiency and thermal stress in Switch-Mode Power Supplies. Discover why Jianghai's low-ESR capacitors are ideal.">
+    <meta name="keywords" content="esr capacitor, equivalent series resistance, smps efficiency, low esr capacitor, thermal stress">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="main-header"><div class="container">...</div></header>
+
+    <main>
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs">
+            <div class="container">
+                <a href="../index.html">Home</a> &raquo; 
+                <a href="index.html">Technical Support</a> &raquo; 
+                <span>Understanding ESR</span>
+            </div>
+        </div>
+
+        <article class="page-content article-layout">
+            <div class="container">
+                <h1>Understanding ESR and Its Impact on SMPS Efficiency</h1>
+                <p class="article-meta">Published: February 20, 2025 | By: <strong>Jane Smith, FAE</strong> | Category: Application Note</p>
+                
+                <div class="article-content">
+                    <p>Equivalent Series Resistance (ESR) is one of the most critical parameters to consider when selecting capacitors for Switch-Mode Power Supplies (SMPS). While capacitance gets most of the attention, ESR often determines whether your power supply will meet efficiency targets or suffer from thermal issues.</p>
+
+                    <h3>What is ESR?</h3>
+                    <p>ESR represents the total resistance in series with an ideal capacitor. It includes the resistance of the electrolyte, foil, tabs, and terminals. In an AC application like SMPS output filtering, this resistance causes power dissipation according to the formula P = I²R, where I is the RMS ripple current.</p>
+
+                    <h3>Impact on Efficiency</h3>
+                    <p>In a typical SMPS, output capacitors must handle significant ripple current. High ESR means more power loss as heat, which directly reduces overall efficiency. For example, a capacitor with 100mΩ ESR handling 5A RMS ripple current will dissipate 2.5W just in the capacitor!</p>
+
+                    <h3>Thermal Considerations</h3>
+                    <p>The power dissipated due to ESR creates heat inside the capacitor, raising its core temperature above ambient. This temperature rise accelerates the evaporation of electrolyte, significantly reducing capacitor life. High ESR can create a destructive cycle: more heat leads to higher ESR, which leads to even more heat.</p>
+
+                    <h3>Why Choose Jianghai's Low-ESR Series?</h3>
+                    <ul>
+                        <li><strong>CD 296 Series:</strong> Specifically designed for high ripple current applications with ESR values 50% lower than standard capacitors.</li>
+                        <li><strong>Advanced Electrolyte:</strong> Jianghai uses proprietary electrolyte formulations that maintain low ESR across temperature and frequency ranges.</li>
+                        <li><strong>Construction Techniques:</strong> Multiple tab connections and optimized winding reduce internal resistance paths.</li>
+                    </ul>
+
+                    <h3>Practical Design Tips</h3>
+                    <p>When selecting capacitors for SMPS applications:</p>
+                    <ol>
+                        <li>Calculate the RMS ripple current accurately using your switching frequency and load conditions</li>
+                        <li>Choose capacitors with ESR ratings that keep power dissipation under 1W for good thermal management</li>
+                        <li>Consider paralleling multiple smaller capacitors instead of one large one to reduce total ESR</li>
+                        <li>Ensure adequate airflow around high-current output capacitors</li>
+                    </ol>
+
+                    <p>Understanding ESR and selecting the right low-ESR capacitors is essential for achieving high efficiency and reliability in modern power supplies. Our technical team at Hongxin Electronics can help you calculate ripple current requirements and select the optimal Jianghai capacitors for your specific application.</p>
+                </div>
+
+                <!-- Related Articles Module -->
+                <div class="related-articles">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="selection-guide.html">How to Select the Right Jianghai Capacitor for Your Inverter Application</a></li>
+                        <li><a href="capacitor-failure-guide.html">Why Did My Electrolytic Capacitor Fail Prematurely?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer"><div class="container">...</div></footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
