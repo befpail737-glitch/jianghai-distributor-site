@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Reasons for Capacitor Failure | Troubleshooting</title>
+    <meta name="description" content="Troubleshooting guide on why aluminum electrolytic capacitors fail. Learn about the effects of overvoltage, ripple current, high temperature, and reverse voltage to improve your design's reliability.">
+    <meta name="keywords" content="capacitor failure, electrolytic capacitor troubleshooting, why capacitors fail, capacitor reliability">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="main-header"><div class="container">...</div></header>
+
+    <main>
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs">
+            <div class="container">
+                <a href="../index.html">Home</a> &raquo; 
+                <a href="index.html">Technical Support</a> &raquo; 
+                <span>Why Did My Capacitor Fail?</span>
+            </div>
+        </div>
+
+        <article class="page-content article-layout">
+            <div class="container">
+                <h1>Why Did My Electrolytic Capacitor Fail Prematurely? A Troubleshooting Guide</h1>
+                <p class="article-meta">Published: January 30, 2025 | By: <strong>John Doe, Senior FAE</strong> | Category: Troubleshooting (FAQ)</p>
+                
+                <div class="article-content">
+                    <p>A failed electrolytic capacitor—often identified by bulging, leaking, or a complete loss of capacitance—can bring an entire system down. While sometimes due to a manufacturing defect, premature failure is most often caused by stresses in the application that exceed the capacitor's limits. Here are the top 5 culprits our FAEs see in the field.</p>
+
+                    <h3>1. Excessive Temperature</h3>
+                    <p>This is the number one killer of electrolytic capacitors. The electrolyte inside the capacitor gradually evaporates over its life, and this process accelerates exponentially with heat. Remember the rule of thumb (Arrhenius's Law): for every 10°C increase in operating temperature, the capacitor's useful life is cut in half. A capacitor rated for 5,000 hours at 105°C will last only 2,500 hours at 115°C.</p>
+
+                    <h3>2. Excessive Ripple Current</h3>
+                    <p>Ripple current flowing through the capacitor's ESR generates internal heat. If the applied ripple current is higher than the datasheet rating, the capacitor's core temperature will rise significantly above the ambient temperature, leading to accelerated aging and failure. Always choose a capacitor with a ripple current rating appropriate for your application, like the <a href="../products/aluminum-electrolytic/cd296.html">Jianghai CD 296</a> for high-stress scenarios.</p>
+
+                    <h3>3. Overvoltage</h3>
+                    <p>Applying a DC voltage higher than the capacitor's rated voltage (Vdc) is a recipe for disaster. It causes a rapid breakdown of the dielectric oxide layer, leading to high leakage current, gas generation, and eventual catastrophic failure (venting or explosion). Always include a safety margin (e.g., use a 50V capacitor in a 40V application).</p>
+                    
+                    <h3>4. Reverse Voltage</h3>
+                    <p>Aluminum electrolytic capacitors are polarized. Applying a reverse voltage of even a few volts will destroy the delicate dielectric layer, causing a short circuit and rapid failure. This is an application error that must be avoided through careful circuit design and board layout.</p>
+
+                    <h3>5. Mechanical Stress or Vibration</h3>
+                    <p>In industrial or automotive environments, constant vibration can cause the internal connections or the external lead wires of a capacitor to fatigue and break over time. For these applications, it's crucial to select capacitors with enhanced vibration resistance or to properly secure large components with glue or mounting clamps.</p>
+
+                    <h3>Conclusion</h3>
+                    <p>By understanding and respecting these five key stress factors, you can significantly improve the reliability of your designs. Always operate components well within their datasheet limits and consult with your component distributor's FAEs to select the most robust part for your specific application.</p>
+                </div>
+
+                 <!-- Related Articles Module -->
+                <div class="related-articles">
+                    <h2>Related Articles</h2>
+                    <ul>
+                        <li><a href="selection-guide.html">How to Select the Right Jianghai Capacitor for Your Inverter Application</a></li>
+                        <li><a href="understanding-esr.html">Understanding ESR and Its Impact on SMPS Efficiency</a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer"><div class="container">...</div></footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
