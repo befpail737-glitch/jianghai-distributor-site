@@ -1,0 +1,29 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="historyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="url(#historyGradient)"/>
+  
+  <!-- Clock/Timeline icon -->
+  <g stroke="#ffffff" stroke-width="2" fill="none">
+    <circle cx="40" cy="40" r="24"/>
+    <!-- Clock hands -->
+    <line x1="40" y1="40" x2="40" y2="22"/>
+    <line x1="40" y1="40" x2="52" y2="40"/>
+    <!-- Hour marks -->
+    <line x1="40" y1="18" x2="40" y2="22"/>
+    <line x1="40" y1="58" x2="40" y2="62"/>
+    <line x1="62" y1="40" x2="58" y2="40"/>
+    <line x1="18" y1="40" x2="22" y2="40"/>
+  </g>
+  
+  <!-- Timeline dots -->
+  <circle cx="25" cy="25" r="2" fill="#ffffff"/>
+  <circle cx="55" cy="25" r="2" fill="#ffffff"/>
+  <circle cx="55" cy="55" r="2" fill="#ffffff"/>
+</svg>
