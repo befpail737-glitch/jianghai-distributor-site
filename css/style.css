@@ -323,7 +323,7 @@ a:hover {
     margin: 40px 0;
 }
 
-.offices-map {
+.offices-table {
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -332,7 +332,7 @@ a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.offices-map:hover {
+.offices-table:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
 }
@@ -907,7 +907,7 @@ a:hover {
         padding: 40px 20px;
     }
     
-    .offices-map {
+    .offices-table {
         max-width: 100%;
         margin: 0 20px;
     }

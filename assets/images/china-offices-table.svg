@@ -1,0 +1,142 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1f5fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="rowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f1f8ff;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)" rx="12"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Greater China Network
+  </text>
+  <text x="400" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64b5f6">
+    大中华区销售网络
+  </text>
+  
+  <!-- Table Container -->
+  <rect x="50" y="90" width="700" height="260" fill="#ffffff" stroke="#e0e7ff" stroke-width="2" rx="8"/>
+  
+  <!-- Table Header -->
+  <rect x="50" y="90" width="700" height="50" fill="url(#headerGradient)" rx="8"/>
+  <rect x="50" y="115" width="700" height="25" fill="url(#headerGradient)"/>
+  
+  <!-- Header Text -->
+  <text x="120" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">办事处</text>
+  <text x="280" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">地址</text>
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">联系人</text>
+  <text x="650" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">电话</text>
+  
+  <!-- Table Lines -->
+  <!-- Vertical lines -->
+  <line x1="190" y1="90" x2="190" y2="350" stroke="#e0e7ff" stroke-width="2"/>
+  <line x1="370" y1="90" x2="370" y2="350" stroke="#e0e7ff" stroke-width="2"/>
+  <line x1="580" y1="90" x2="580" y2="350" stroke="#e0e7ff" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="50" y1="140" x2="750" y2="140" stroke="#e0e7ff" stroke-width="2"/>
+  <line x1="50" y1="190" x2="750" y2="190" stroke="#e0e7ff" stroke-width="2"/>
+  <line x1="50" y1="240" x2="750" y2="240" stroke="#e0e7ff" stroke-width="2"/>
+  <line x1="50" y1="290" x2="750" y2="290" stroke="#e0e7ff" stroke-width="2"/>
+  
+  <!-- Row 1: Hong Kong HQ -->
+  <rect x="50" y="140" width="700" height="50" fill="url(#rowGradient)" opacity="0.5"/>
+  
+  <!-- Office icons -->
+  <rect x="70" y="155" width="20" height="20" fill="#f44336" rx="3"/>
+  <rect x="72" y="157" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="157" width="4" height="4" fill="#ffffff"/>
+  <rect x="72" y="163" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="163" width="4" height="4" fill="#ffffff"/>
+  
+  <text x="120" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">香港总部</text>
+  <text x="120" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Hong Kong HQ</text>
+  
+  <text x="280" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">香港沙田香港科学园</text>
+  <text x="280" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">科技大道东7号绿景楼5楼</text>
+  
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">总机</text>
+  <text x="500" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">Main Line</text>
+  
+  <text x="650" y="167" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#f44336">+852-24248227</text>
+  
+  <!-- Row 2: Beijing Office -->
+  <rect x="50" y="190" width="700" height="50" fill="#ffffff" opacity="0.8"/>
+  
+  <rect x="70" y="205" width="20" height="20" fill="#4caf50" rx="3"/>
+  <rect x="72" y="207" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="207" width="4" height="4" fill="#ffffff"/>
+  <rect x="72" y="213" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="213" width="4" height="4" fill="#ffffff"/>
+  
+  <text x="120" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">北京办事处</text>
+  <text x="120" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Beijing Office</text>
+  
+  <text x="280" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">北京市通州区恒业北七街</text>
+  <text x="280" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">6号院19号楼2层101-215室</text>
+  
+  <text x="500" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">王女士</text>
+  <text x="500" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">Ms. Wang</text>
+  
+  <text x="650" y="217" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4caf50">+86-18612518271</text>
+  
+  <!-- Row 3: Shanghai Office -->
+  <rect x="50" y="240" width="700" height="50" fill="url(#rowGradient)" opacity="0.5"/>
+  
+  <rect x="70" y="255" width="20" height="20" fill="#ff9800" rx="3"/>
+  <rect x="72" y="257" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="257" width="4" height="4" fill="#ffffff"/>
+  <rect x="72" y="263" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="263" width="4" height="4" fill="#ffffff"/>
+  
+  <text x="120" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">上海办事处</text>
+  <text x="120" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Shanghai Office</text>
+  
+  <text x="280" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">上海市裕通路100号</text>
+  <text x="280" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">宝矿洲际商务中心705-706室</text>
+  
+  <text x="500" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">王女士</text>
+  <text x="500" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">Ms. Wang</text>
+  
+  <text x="650" y="267" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ff9800">+86-18612518271</text>
+  
+  <!-- Row 4: Shenzhen Office -->
+  <rect x="50" y="290" width="700" height="50" fill="#ffffff" opacity="0.8"/>
+  
+  <rect x="70" y="305" width="20" height="20" fill="#e91e63" rx="3"/>
+  <rect x="72" y="307" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="307" width="4" height="4" fill="#ffffff"/>
+  <rect x="72" y="313" width="4" height="4" fill="#ffffff"/>
+  <rect x="78" y="313" width="4" height="4" fill="#ffffff"/>
+  
+  <text x="120" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">深圳办事处</text>
+  <text x="120" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Shenzhen Office</text>
+  
+  <text x="280" y="305" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">深圳市福田保税区红花路</text>
+  <text x="280" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">6号长平商务大厦306-308室</text>
+  
+  <text x="500" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">周先生</text>
+  <text x="500" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">Mr. Zhou</text>
+  
+  <text x="650" y="317" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e91e63">+86-15013702378</text>
+  
+  <!-- Bottom info bar -->
+  <rect x="50" y="360" width="700" height="30" fill="rgba(33,150,243,0.1)" stroke="#2196f3" stroke-width="1" rx="15"/>
+  <text x="400" y="378" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    🌐 全面覆盖大中华区主要经济中心  •  📞 统一客服热线：+852-24248227
+  </text>
+</svg>
