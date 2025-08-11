@@ -12,7 +12,7 @@ export async function onRequestPost(context) {
 
     // In a real scenario, you'd have something like:
     // await sendEmail({
-    //   to: "sales@hongxin-elec.com",
+    //   to: "sales@litong-group.com",
     //   from: "website-form@yourdomain.com",
     //   subject: `New Message from ${data.name}: ${data.subject}`,
     //   body: data.message
