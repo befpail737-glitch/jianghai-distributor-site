@@ -1,31 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
     <url>
-        <loc>https://www.your-domain.com/</loc>
+        <loc>https://www.jianghai-distributor.com/</loc>
         <priority>1.0</priority>
     </url>
+    
+    <!-- Main Pages -->
     <url>
-        <loc>https://www.your-domain.com/products/aluminum-electrolytic/</loc>
+        <loc>https://www.jianghai-distributor.com/about.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.your-domain.com/solutions/</loc>
+        <loc>https://www.jianghai-distributor.com/contact.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.your-domain.com/support/</loc>
+        <loc>https://www.jianghai-distributor.com/thank-you.html</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- Products Section -->
+    <url>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/cbb131.html</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.your-domain.com/news/</loc>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/cd130.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/cd295.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/cd296.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/products/aluminum-electrolytic/cd297.html</loc>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Solutions Section -->
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/energy-storage.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/industrial-vfd.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/nev-obc-solution.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/photovoltaic-inverter.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/solutions/smps-solution.html</loc>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Support Section -->
+    <url>
+        <loc>https://www.jianghai-distributor.com/support/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/support/capacitor-failure-guide.html</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://www.your-domain.com/about.html</loc>
+        <loc>https://www.jianghai-distributor.com/support/selection-guide.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/support/understanding-esr.html</loc>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- News Section -->
+    <url>
+        <loc>https://www.jianghai-distributor.com/news/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/news/sic-gan-impact.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.your-domain.com/contact.html</loc>
+        <loc>https://www.jianghai-distributor.com/news/supercapacitor-launch.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/news/supply-chain-update.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.jianghai-distributor.com/news/tech-seminar-recap.html</loc>
         <priority>0.5</priority>
     </url>
 </urlset>
