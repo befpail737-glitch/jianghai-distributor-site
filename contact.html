@@ -62,11 +62,19 @@
         }
         .whatsapp-icon { color: #25D366; }
         .wechat-icon { color: #7BB32E; }
-        .phone-number-svg {
-            font-family: 'Arial', monospace;
-            font-weight: bold;
-            font-size: 14px;
+        .phone-number-vector {
+            width: 140px;
+            height: 25px;
+        }
+        .phone-digit {
             fill: #333;
+            stroke: #0056b3;
+            stroke-width: 0.5;
+        }
+        .phone-plus {
+            fill: #007bff;
+            stroke: #0056b3;
+            stroke-width: 0.8;
         }
         @media (max-width: 768px) {
             .contact-sidebar {
@@ -279,8 +287,59 @@
             <i class="fab fa-whatsapp contact-icon whatsapp-icon"></i>
             <div>
                 <div>WhatsApp</div>
-                <svg width="120" height="20" viewBox="0 0 120 20">
-                    <text x="0" y="15" class="phone-number-svg">+86 15013702378</text>
+                <svg class="phone-number-vector" viewBox="0 0 140 25">
+                    <!-- +86 -->
+                    <rect class="phone-plus" x="2" y="8" width="2" height="8" rx="1"/>
+                    <rect class="phone-plus" x="0" y="11" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="10" y="6" width="6" height="12" rx="3"/>
+                    <rect class="phone-digit" x="12" y="8" width="2" height="8" rx="1"/>
+                    <rect class="phone-digit" x="20" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="14" width="2" height="2" rx="1"/>
+                    
+                    <!-- 15013702378 -->
+                    <rect class="phone-digit" x="32" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="38" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="38" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="38" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="38" y="14" width="2" height="2" rx="1"/>
+                    
+                    <circle class="phone-digit" cx="52" cy="14" r="4"/>
+                    <circle class="phone-digit" cx="52" cy="14" r="2"/>
+                    
+                    <rect class="phone-digit" x="58" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="64" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="64" y="10" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="64" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="66" y="16" width="4" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="74" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="74" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="78" y="6" width="2" height="6" rx="1"/>
+                    <rect class="phone-digit" x="78" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="76" y="16" width="4" height="2" rx="1"/>
+                    
+                    <circle class="phone-digit" cx="88" cy="14" r="4"/>
+                    <circle class="phone-digit" cx="88" cy="14" r="2"/>
+                    
+                    <rect class="phone-digit" x="96" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="96" y="10" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="96" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="98" y="16" width="4" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="106" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="106" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="106" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="106" y="6" width="2" height="12" rx="1"/>
+                    <rect class="phone-digit" x="110" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="118" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="118" y="10" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="118" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="120" y="16" width="4" height="2" rx="1"/>
                 </svg>
             </div>
         </div>
@@ -288,8 +347,65 @@
             <i class="fab fa-weixin contact-icon wechat-icon"></i>
             <div>
                 <div>微信</div>
-                <svg width="120" height="20" viewBox="0 0 120 20">
-                    <text x="0" y="15" class="phone-number-svg">+86 18612518271</text>
+                <svg class="phone-number-vector" viewBox="0 0 140 25">
+                    <!-- +86 -->
+                    <rect class="phone-plus" x="2" y="8" width="2" height="8" rx="1"/>
+                    <rect class="phone-plus" x="0" y="11" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="10" y="6" width="6" height="12" rx="3"/>
+                    <rect class="phone-digit" x="12" y="8" width="2" height="8" rx="1"/>
+                    <rect class="phone-digit" x="20" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="20" y="14" width="2" height="2" rx="1"/>
+                    
+                    <!-- 18612518271 -->
+                    <rect class="phone-digit" x="32" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="38" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="38" y="10" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="38" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="40" y="16" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="40" y="6" width="2" height="6" rx="1"/>
+                    
+                    <rect class="phone-digit" x="48" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="48" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="52" y="6" width="2" height="6" rx="1"/>
+                    <rect class="phone-digit" x="52" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="50" y="16" width="4" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="58" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="66" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="66" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="66" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="66" y="14" width="2" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="76" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="76" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="80" y="6" width="2" height="6" rx="1"/>
+                    <rect class="phone-digit" x="80" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="78" y="16" width="4" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="86" y="6" width="2" height="12" rx="1"/>
+                    
+                    <rect class="phone-digit" x="92" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="92" y="10" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="92" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="94" y="16" width="4" height="2" rx="1"/>
+                    <rect class="phone-digit" x="94" y="6" width="2" height="6" rx="1"/>
+                    
+                    <rect class="phone-digit" x="102" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="102" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="102" y="16" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="102" y="14" width="2" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="112" y="6" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="112" y="10" width="6" height="2" rx="1"/>
+                    <rect class="phone-digit" x="116" y="6" width="2" height="6" rx="1"/>
+                    <rect class="phone-digit" x="116" y="14" width="2" height="4" rx="1"/>
+                    <rect class="phone-digit" x="114" y="16" width="4" height="2" rx="1"/>
+                    
+                    <rect class="phone-digit" x="122" y="6" width="2" height="12" rx="1"/>
                 </svg>
             </div>
         </div>
