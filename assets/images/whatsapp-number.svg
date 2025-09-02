@@ -14,12 +14,53 @@
   <rect x="2" y="2" width="156" height="31" rx="8" ry="8" 
         fill="url(#bgGradient)" stroke="#0056b3" stroke-width="2" filter="url(#shadow)"/>
   
-  <!-- Phone number text using standard monospace digits -->
-  <text x="80" y="22" text-anchor="middle" 
-        font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Courier New', monospace" 
-        font-size="16" 
-        font-weight="700" 
-        fill="#2c3e50" 
-        letter-spacing="1px"
-        font-variant-numeric="tabular-nums">+86 15013702378</text>
+  <!-- Standard digital-style phone number: +86 15013702378 -->
+  <g fill="#2c3e50" transform="translate(18, 12)">
+    <!-- + -->
+    <rect x="0" y="4" width="1.5" height="6"/>
+    <rect x="-2" y="6.75" width="6" height="1.5"/>
+    
+    <!-- 8 -->
+    <path d="M6 2 L10 2 Q12 2 12 4 Q12 5 11 5.5 Q12 6 12 8 Q12 10 10 10 L6 10 Q4 10 4 8 Q4 6 5 5.5 Q4 5 4 4 Q4 2 6 2 Z M6 3 Q5 3 5 4 Q5 5 6 5 L10 5 Q11 5 11 4 Q11 3 10 3 Z M6 6 Q5 6 5 8 Q5 9 6 9 L10 9 Q11 9 11 8 Q11 6 10 6 Z"/>
+    
+    <!-- 6 -->
+    <path d="M14 2 L18 2 Q20 2 20 4 Q20 5 19 5.5 Q20 6 20 8 Q20 10 18 10 L14 10 Q12 10 12 8 L12 4 Q12 2 14 2 Z M14 3 Q13 3 13 4 L13 8 Q13 9 14 9 L18 9 Q19 9 19 8 Q19 6 18 6 L14 6 L14 3 Z M14 3 L18 3 Q19 3 19 4 Q19 5 18 5 L14 5 Z"/>
+    
+    <!-- Space -->
+    
+    <!-- 1 -->
+    <rect x="26" y="2" width="1.5" height="8"/>
+    <path d="M24.5 3.5 L26 2"/>
+    
+    <!-- 5 -->
+    <path d="M30 2 L36 2 L30 2 L30 5 L35 5 Q37 5 37 7 Q37 10 35 10 L30 10 L30 9 L35 9 Q36 9 36 7 Q36 6 35 6 L29 6 L29 2 Z"/>
+    
+    <!-- 0 -->
+    <path d="M41 2 L45 2 Q47 2 47 4 L47 8 Q47 10 45 10 L41 10 Q39 10 39 8 L39 4 Q39 2 41 2 Z M41 3 Q40 3 40 4 L40 8 Q40 9 41 9 L45 9 Q46 9 46 8 L46 4 Q46 3 45 3 Z"/>
+    
+    <!-- 1 -->
+    <rect x="51" y="2" width="1.5" height="8"/>
+    <path d="M49.5 3.5 L51 2"/>
+    
+    <!-- 3 -->
+    <path d="M55 2 L61 2 Q63 2 63 4 Q63 5 62 5.5 Q63 6 63 8 Q63 10 61 10 L55 10 L55 9 L61 9 Q62 9 62 8 Q62 6 61 6 L58 6 L58 5 L61 5 Q62 5 62 4 Q62 3 61 3 L55 3 Z"/>
+    
+    <!-- 7 -->
+    <path d="M67 2 L73 2 L69 10 L67.5 10 L71 3 L67 3 Z"/>
+    
+    <!-- 0 -->
+    <path d="M77 2 L81 2 Q83 2 83 4 L83 8 Q83 10 81 10 L77 10 Q75 10 75 8 L75 4 Q75 2 77 2 Z M77 3 Q76 3 76 4 L76 8 Q76 9 77 9 L81 9 Q82 9 82 8 L82 4 Q82 3 81 3 Z"/>
+    
+    <!-- 2 -->
+    <path d="M87 2 L91 2 Q93 2 93 4 Q93 5 92 6 L87 10 L93 10 L93 9 L89 9 L93 6 Q94 5 94 4 Q94 2 91 2 L87 2 Q85 2 85 4 L85 4.5 L86 4.5 L86 4 Q86 3 87 3 Z"/>
+    
+    <!-- 3 -->
+    <path d="M97 2 L103 2 Q105 2 105 4 Q105 5 104 5.5 Q105 6 105 8 Q105 10 103 10 L97 10 L97 9 L103 9 Q104 9 104 8 Q104 6 103 6 L100 6 L100 5 L103 5 Q104 5 104 4 Q104 3 103 3 L97 3 Z"/>
+    
+    <!-- 7 -->
+    <path d="M109 2 L115 2 L111 10 L109.5 10 L113 3 L109 3 Z"/>
+    
+    <!-- 8 -->
+    <path d="M119 2 L123 2 Q125 2 125 4 Q125 5 124 5.5 Q125 6 125 8 Q125 10 123 10 L119 10 Q117 10 117 8 Q117 6 118 5.5 Q117 5 117 4 Q117 2 119 2 Z M119 3 Q118 3 118 4 Q118 5 119 5 L123 5 Q124 5 124 4 Q124 3 123 3 Z M119 6 Q118 6 118 8 Q118 9 119 9 L123 9 Q124 9 124 8 Q124 6 123 6 Z"/>
+  </g>
 </svg>
