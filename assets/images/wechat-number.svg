@@ -14,11 +14,12 @@
   <rect x="2" y="2" width="156" height="31" rx="8" ry="8" 
         fill="url(#bgGradient2)" stroke="#7BB32E" stroke-width="2" filter="url(#shadow2)"/>
   
-  <!-- Phone number text using standard fonts -->
+  <!-- Phone number text using standard monospace digits -->
   <text x="80" y="22" text-anchor="middle" 
-        font-family="Arial, Helvetica, sans-serif" 
-        font-size="14" 
-        font-weight="600" 
-        fill="#333" 
-        letter-spacing="0.5px">+86 18612518271</text>
+        font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Courier New', monospace" 
+        font-size="16" 
+        font-weight="700" 
+        fill="#2c3e50" 
+        letter-spacing="1px"
+        font-variant-numeric="tabular-nums">+86 18612518271</text>
 </svg>
