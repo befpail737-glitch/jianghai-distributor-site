@@ -1,0 +1,4 @@
+# Redirects for Cloudflare Pages
+/contact  /contact.html
+/about    /about.html
+/*        /index.html   404

@@ -1,0 +1,9 @@
+name = "jianghai-distributor-site"
+compatibility_date = "2024-09-01"
+
+[env.production]
+name = "jianghai-distributor-site"
+
+[[env.production.route]]
+pattern = "jianghai-distributor.com/*"
+zone_name = "jianghai-distributor.com"
