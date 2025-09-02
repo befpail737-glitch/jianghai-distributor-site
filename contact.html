@@ -25,6 +25,60 @@
     <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .contact-sidebar {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            z-index: 1000;
+            min-width: 200px;
+        }
+        .contact-sidebar h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-item:hover {
+            background-color: #f8f9fa;
+        }
+        .contact-icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .whatsapp-icon { color: #25D366; }
+        .wechat-icon { color: #7BB32E; }
+        .phone-number-svg {
+            font-family: 'Arial', monospace;
+            font-weight: bold;
+            font-size: 14px;
+            fill: #333;
+        }
+        @media (max-width: 768px) {
+            .contact-sidebar {
+                position: relative;
+                right: auto;
+                top: auto;
+                transform: none;
+                margin: 20px auto;
+                max-width: 300px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
@@ -217,6 +271,29 @@
         </section>
     </main>
 
+
+    <!-- Contact Sidebar -->
+    <div class="contact-sidebar">
+        <h3>即时联系</h3>
+        <div class="contact-item">
+            <i class="fab fa-whatsapp contact-icon whatsapp-icon"></i>
+            <div>
+                <div>WhatsApp</div>
+                <svg width="120" height="20" viewBox="0 0 120 20">
+                    <text x="0" y="15" class="phone-number-svg">+86 15013702378</text>
+                </svg>
+            </div>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-weixin contact-icon wechat-icon"></i>
+            <div>
+                <div>微信</div>
+                <svg width="120" height="20" viewBox="0 0 120 20">
+                    <text x="0" y="15" class="phone-number-svg">+86 18612518271</text>
+                </svg>
+            </div>
+        </div>
+    </div>
 
     <footer class="main-footer">
         <!-- Re-use footer -->
