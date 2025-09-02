@@ -14,55 +14,76 @@
   <rect x="2" y="2" width="156" height="31" rx="8" ry="8" 
         fill="url(#bgGradient2)" stroke="#7BB32E" stroke-width="2" filter="url(#shadow2)"/>
   
-  <!-- Standard digital-style phone number: +86 18612518271 -->
-  <g fill="#2c3e50" transform="translate(18, 12)">
+  <!-- Clear, distinguishable phone number: +86 18612518271 -->
+  <g fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.3" transform="translate(15, 11)">
     <!-- + -->
-    <rect x="0" y="4" width="1.5" height="6"/>
-    <rect x="-2" y="6.75" width="6" height="1.5"/>
+    <rect x="0" y="5" width="2" height="8" rx="0.3"/>
+    <rect x="-3" y="8" width="8" height="2" rx="0.3"/>
     
-    <!-- 8 -->
-    <path d="M6 2 L10 2 Q12 2 12 4 Q12 5 11 5.5 Q12 6 12 8 Q12 10 10 10 L6 10 Q4 10 4 8 Q4 6 5 5.5 Q4 5 4 4 Q4 2 6 2 Z M6 3 Q5 3 5 4 Q5 5 6 5 L10 5 Q11 5 11 4 Q11 3 10 3 Z M6 6 Q5 6 5 8 Q5 9 6 9 L10 9 Q11 9 11 8 Q11 6 10 6 Z"/>
+    <!-- 8 (distinctive two circles) -->
+    <rect x="12" y="3" width="8" height="12" rx="4" fill="none" stroke-width="2"/>
+    <rect x="14" y="5" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
+    <rect x="14" y="10" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
     
-    <!-- 6 -->
-    <path d="M14 2 L18 2 Q20 2 20 4 Q20 5 19 5.5 Q20 6 20 8 Q20 10 18 10 L14 10 Q12 10 12 8 L12 4 Q12 2 14 2 Z M14 3 Q13 3 13 4 L13 8 Q13 9 14 9 L18 9 Q19 9 19 8 Q19 6 18 6 L14 6 L14 3 Z M14 3 L18 3 Q19 3 19 4 Q19 5 18 5 L14 5 Z"/>
+    <!-- 6 (clear spiral design) -->
+    <rect x="24" y="3" width="8" height="12" rx="4" fill="none" stroke-width="2"/>
+    <rect x="26" y="9" width="4" height="4" rx="2" fill="none" stroke-width="1.5"/>
+    <path d="M26,6 L30,6" stroke-width="2"/>
     
     <!-- Space -->
     
-    <!-- 1 -->
-    <rect x="26" y="2" width="1.5" height="8"/>
-    <path d="M24.5 3.5 L26 2"/>
+    <!-- 1 (clear vertical line with base) -->
+    <rect x="38" y="3" width="2.5" height="12" rx="0.5"/>
+    <path d="M36,5 L38,3" stroke-width="2" stroke-linecap="round"/>
+    <rect x="36" y="13.5" width="6.5" height="1.5" rx="0.3"/>
     
-    <!-- 8 -->
-    <path d="M30 2 L34 2 Q36 2 36 4 Q36 5 35 5.5 Q36 6 36 8 Q36 10 34 10 L30 10 Q28 10 28 8 Q28 6 29 5.5 Q28 5 28 4 Q28 2 30 2 Z M30 3 Q29 3 29 4 Q29 5 30 5 L34 5 Q35 5 35 4 Q35 3 34 3 Z M30 6 Q29 6 29 8 Q29 9 30 9 L34 9 Q35 9 35 8 Q35 6 34 6 Z"/>
+    <!-- 8 (distinctive two circles) -->
+    <rect x="48" y="3" width="8" height="12" rx="4" fill="none" stroke-width="2"/>
+    <rect x="50" y="5" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
+    <rect x="50" y="10" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
     
-    <!-- 6 -->
-    <path d="M38 2 L42 2 Q44 2 44 4 Q44 5 43 5.5 Q44 6 44 8 Q44 10 42 10 L38 10 Q36 10 36 8 L36 4 Q36 2 38 2 Z M38 3 Q37 3 37 4 L37 8 Q37 9 38 9 L42 9 Q43 9 43 8 Q43 6 42 6 L38 6 L38 3 Z M38 3 L42 3 Q43 3 43 4 Q43 5 42 5 L38 5 Z"/>
+    <!-- 6 (clear spiral design) -->
+    <rect x="60" y="3" width="8" height="12" rx="4" fill="none" stroke-width="2"/>
+    <rect x="62" y="9" width="4" height="4" rx="2" fill="none" stroke-width="1.5"/>
+    <path d="M62,6 L66,6" stroke-width="2"/>
     
-    <!-- 1 -->
-    <rect x="50" y="2" width="1.5" height="8"/>
-    <path d="M48.5 3.5 L50 2"/>
+    <!-- 1 (clear vertical line with base) -->
+    <rect x="74" y="3" width="2.5" height="12" rx="0.5"/>
+    <path d="M72,5 L74,3" stroke-width="2" stroke-linecap="round"/>
+    <rect x="72" y="13.5" width="6.5" height="1.5" rx="0.3"/>
     
-    <!-- 2 -->
-    <path d="M54 2 L58 2 Q60 2 60 4 Q60 5 59 6 L54 10 L60 10 L60 9 L56 9 L60 6 Q61 5 61 4 Q61 2 58 2 L54 2 Q52 2 52 4 L52 4.5 L53 4.5 L53 4 Q53 3 54 3 Z"/>
+    <!-- 2 (clear Z-shape) -->
+    <path d="M84,5 Q86,3 88,5 Q86,7 84,9 L88,13 L84,15 L88,15" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="84" y="3" width="6" height="2" rx="1"/>
     
-    <!-- 5 -->
-    <path d="M64 2 L70 2 L64 2 L64 5 L69 5 Q71 5 71 7 Q71 10 69 10 L64 10 L64 9 L69 9 Q70 9 70 7 Q70 6 69 6 L63 6 L63 2 Z"/>
+    <!-- 5 (clear F-shape) -->
+    <rect x="96" y="3" width="8" height="2" rx="0.5"/>
+    <rect x="96" y="3" width="2" height="6" rx="0.5"/>
+    <rect x="96" y="7" width="6" height="2" rx="0.5"/>
+    <rect x="102" y="7" width="2" height="8" rx="1"/>
+    <rect x="96" y="13" width="8" height="2" rx="1"/>
     
-    <!-- 1 -->
-    <rect x="77" y="2" width="1.5" height="8"/>
-    <path d="M75.5 3.5 L77 2"/>
+    <!-- 1 (clear vertical line with base) -->
+    <rect x="110" y="3" width="2.5" height="12" rx="0.5"/>
+    <path d="M108,5 L110,3" stroke-width="2" stroke-linecap="round"/>
+    <rect x="108" y="13.5" width="6.5" height="1.5" rx="0.3"/>
     
-    <!-- 8 -->
-    <path d="M81 2 L85 2 Q87 2 87 4 Q87 5 86 5.5 Q87 6 87 8 Q87 10 85 10 L81 10 Q79 10 79 8 Q79 6 80 5.5 Q79 5 79 4 Q79 2 81 2 Z M81 3 Q80 3 80 4 Q80 5 81 5 L85 5 Q86 5 86 4 Q86 3 85 3 Z M81 6 Q80 6 80 8 Q80 9 81 9 L85 9 Q86 9 86 8 Q86 6 85 6 Z"/>
+    <!-- 8 (distinctive two circles) -->
+    <rect x="120" y="3" width="8" height="12" rx="4" fill="none" stroke-width="2"/>
+    <rect x="122" y="5" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
+    <rect x="122" y="10" width="4" height="3" rx="2" fill="none" stroke-width="1.5"/>
     
-    <!-- 2 -->
-    <path d="M91 2 L95 2 Q97 2 97 4 Q97 5 96 6 L91 10 L97 10 L97 9 L93 9 L97 6 Q98 5 98 4 Q98 2 95 2 L91 2 Q89 2 89 4 L89 4.5 L90 4.5 L90 4 Q90 3 91 3 Z"/>
+    <!-- 2 (clear Z-shape) -->
+    <path d="M134,5 Q136,3 138,5 Q136,7 134,9 L138,13 L134,15 L138,15" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="134" y="3" width="6" height="2" rx="1"/>
     
-    <!-- 7 -->
-    <path d="M101 2 L107 2 L103 10 L101.5 10 L105 3 L101 3 Z"/>
+    <!-- 7 (clear angle) -->
+    <rect x="146" y="3" width="8" height="2" rx="0.5"/>
+    <path d="M150,5 L148,15" stroke-width="2.5" stroke-linecap="round"/>
     
-    <!-- 1 -->
-    <rect x="113" y="2" width="1.5" height="8"/>
-    <path d="M111.5 3.5 L113 2"/>
+    <!-- 1 (clear vertical line with base) -->
+    <rect x="160" y="3" width="2.5" height="12" rx="0.5"/>
+    <path d="M158,5 L160,3" stroke-width="2" stroke-linecap="round"/>
+    <rect x="158" y="13.5" width="6.5" height="1.5" rx="0.3"/>
   </g>
 </svg>
