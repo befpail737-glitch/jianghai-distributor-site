@@ -7,19 +7,19 @@
     --text-color: #333;
     --gray-color: #6c757d;
     --border-color: #dee2e6;
-    --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     --container-width: 1200px;
     --border-radius: 5px;
 }
 
 /* --- Global Resets & Typography --- */
 body {
-    font-family: var(--font-family);
-    line-height: 1.6;
-    color: var(--text-color);
-    background-color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    line-height: 1.8;
     margin: 0;
-    font-size: 16px;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--white);
 }
 
 h1, h2, h3, h4 {
@@ -915,4 +915,105 @@ a:hover {
     .contact-grid, .contact-grid-intl {
         grid-template-columns: 1fr;
     }
+    
+    .floating-contact {
+        right: 15px;
+    }
+    
+    .floating-contact .contact-item {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .phone-number {
+        font-size: 10px;
+        padding: 3px 6px;
+        right: 55px;
+        min-width: 120px;
+    }
+}
+
+/* --- Floating Contact Icons --- */
+.floating-contact {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.floating-contact .contact-item {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.floating-contact .contact-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.floating-contact .whatsapp {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.floating-contact .wechat {
+    background: linear-gradient(135deg, #07C160, #00B04F);
+    color: white;
+}
+
+.floating-contact .contact-icon {
+    width: 28px;
+    height: 28px;
+    fill: currentColor;
+}
+
+.floating-contact .phone-number {
+    position: absolute;
+    right: 70px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.floating-contact .contact-item:hover .phone-number {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.floating-contact .phone-number::after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 8px solid transparent;
+    border-left-color: rgba(0, 0, 0, 0.8);
 }
