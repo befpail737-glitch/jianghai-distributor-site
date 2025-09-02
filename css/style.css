@@ -917,10 +917,14 @@ a:hover {
     }
     
     .floating-contact {
-        right: 10px;
+        position: fixed !important;
+        right: 15px !important;
         gap: 10px;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        z-index: 1000 !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
     
     .floating-contact .contact-item {
