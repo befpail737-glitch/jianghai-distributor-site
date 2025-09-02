@@ -1066,3 +1066,50 @@ a:hover {
     transform: scale(1.05) translateX(-3px);
     transition: all 0.1s ease;
 }
+
+/* Force floating contacts to appear on right side - override all other styles */
+.floating-contact {
+    position: fixed !important;
+    top: 50% !important;
+    right: 20px !important;
+    transform: translateY(-50%) !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    background: none !important;
+    border: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.floating-contact .contact-item {
+    position: relative !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.floating-contact .whatsapp {
+    background: linear-gradient(135deg, #25D366, #128C7E) !important;
+    color: white !important;
+}
+
+.floating-contact .wechat {
+    background: linear-gradient(135deg, #07C160, #00B04F) !important;
+    color: white !important;
+}
