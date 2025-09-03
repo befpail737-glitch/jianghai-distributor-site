@@ -62,9 +62,11 @@
         }
         .whatsapp-icon { color: #25D366; }
         .wechat-icon { color: #7BB32E; }
-        .phone-number-vector {
-            width: 160px;
-            height: 35px;
+        .phone-number {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: #333;
         }
         @media (max-width: 768px) {
             .contact-sidebar {
@@ -277,14 +279,14 @@
             <i class="fab fa-whatsapp contact-icon whatsapp-icon"></i>
             <div>
                 <div>WhatsApp</div>
-                <img src="assets/images/whatsapp-number.svg" alt="+86 15013702378" class="phone-number-vector">
+                <div class="phone-number">+86 15013702378</div>
             </div>
         </div>
         <div class="contact-item">
             <i class="fab fa-weixin contact-icon wechat-icon"></i>
             <div>
                 <div>WeChat</div>
-                <img src="assets/images/wechat-number.svg" alt="+86 18612518271" class="phone-number-vector">
+                <div class="phone-number">+86 18612518271</div>
             </div>
         </div>
     </div>
